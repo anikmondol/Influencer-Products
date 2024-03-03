@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffffd1;
+}
+
+.max-container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.common-btn{
+    color: white;
+    padding: 12px;
+    background-color: rgba(218, 9, 218, 0.879);
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+/* nav styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+nav p{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.nav-anchor-container{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.nav-anchor-container a, .fa-solid{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
+}
+
+/* banner */
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+
+
+
+.banner-text-container p{
+    margin: 10px auto;
+    color: rgba(0, 0, 0, 0.688);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.banner-text-container h1{
+    margin: 10px auto;
+    color: rgba(0, 0, 0, 0.852);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+/* e-shop */
+
+
+.e-shop-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adidas{
+    font-size: 70px;
+}
+
+
+/* popular-collection */
+
+
+
+.popular-collection-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 30px auto;
+}
+
+.card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.card .fa-solid{
+    color: rgba(255, 217, 0, 0.8);
+}
+
+
+.card-btn{
+    width: 30%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border: none;
+    color: rgba(19, 11, 234, 0.936);
+    font-size: 12px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0 auto;
+}
+
+.card img{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.popular-h1{
+    text-align: center;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.729);
+}
+
+
+/* Featured section */
+
+.featured-container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin: 50px auto;
+}
+
+
+.featured-container .featured-text h1{
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.729);
+}
+.featured-container .featured-text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, 0.729);
+    margin: 15px auto;
+}
+
+/* footer */
+
+/* footer{
+    padding: 15px;
+    margin-top: 25px;
+    
+} */
+.footer p small{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: antiquewhite;
+    padding: 20px;
+   
+}
+
+small span{
+    background-color: antiquewhite;
+}
+small span .fa-gift{
+    background-color: antiquewhite;
+}

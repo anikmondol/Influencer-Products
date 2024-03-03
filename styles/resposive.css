@@ -1,0 +1,112 @@
+
+/* mobile device */
+
+@media screen and (max-width: 576px) {
+    .max-container{
+        width: 95%;
+    }
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-anchor-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+    }
+    .banner-img-container img{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .banner-text-container h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .featured-container .featured-text h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .common-btn{
+       margin: 0 auto;
+    }
+
+    .e-shop-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        padding: 0 20px;
+    }
+    .popular-collection-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .featured-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .featured-img img{
+        width: 100%;
+    }
+
+    .footer p small{
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+/* tablet device */
+
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    nav{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        gap: 30px;
+        text-align: center;
+    }
+    .common-btn{
+        margin: 0 auto;
+     }
+     .e-shop-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+        padding: 0 20px;
+    }
+    .popular-collection-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-btn{
+        width: 50%;
+    }
+    .featured-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-text-container h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .featured-container .featured-text h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+}
